@@ -1,0 +1,15 @@
+.nav-bar{
+    /* border:1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar a{
+    text-decoration: none;
+}
+
+.logo{
+    width:43px;
+    height:48px;
+}

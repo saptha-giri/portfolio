@@ -1,0 +1,32 @@
+.about-container {
+  /* flex-direction: column; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/abt-bg.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  /* border: 1px solid; */
+}
+
+.left-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 15rem;
+  margin-top: 15rem;
+}
+
+.right-container {
+  display: flex;
+  flex: 1;
+  margin-top: 15rem
+}
+.right-container img {
+  width: 80%;
+  height: 100%;
+}
+
+.left-container h1 {
+  color: #6e77e5;
+}
