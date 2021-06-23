@@ -1,8 +1,10 @@
 .nav-bar{
-    /* border:1px solid; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:20px 40px;
+    /* position: sticky;
+    top:0; */
 }
 
 .nav-bar a{

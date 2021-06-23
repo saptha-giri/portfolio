@@ -1,5 +1,5 @@
 .about-container {
-  /* flex-direction: column; */
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,4 +29,28 @@
 
 .left-container h1 {
   color: #6e77e5;
+}
+
+.content-container{
+  display: flex;
+}
+
+.skills-container{
+  display: flex;
+  border: 1px solid;
+}
+
+.front-end{
+  border: 1px solid;
+  text-align: right;
+}
+
+.computer{
+  border: 1px solid;
+  padding: 2rem;
+}
+
+.back-end{
+  border: 1px solid;
+  text-align: left;
 }
